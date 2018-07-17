@@ -14,7 +14,6 @@ import sys
 
 sys.path.insert(0, 'C:/Users/ricsor/Desktop/luigi/scripts') #enable import from other directory
 sys.path.insert(0, 'C:/Users/ricsor/Desktop/luigi/scripts/utils') #enable import from other directory
-from util.connections import Kindred_DWH
 
 #### DEFINE CURRENT DIRECTORY CLASS ####
 
