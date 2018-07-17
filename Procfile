@@ -1,1 +1,1 @@
-web: luigid
+web: python server.py
