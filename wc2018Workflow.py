@@ -8,7 +8,7 @@ import datetime
 import shutil
 from time import strftime
 from sys import executable
-from kbcstorage.client import Client
+
 import csv
 import sys
 import sqlalchemy
@@ -33,7 +33,7 @@ tasksPATH='C:/Users/ricsor/Desktop/luigi/tasks'
 mktintelPATH='S:/Online Marketing/Marketing Intelligence/Regulars/Hourly'
 scriptPATH='C:/Users/ricsor/Desktop/luigi/scripts'
 script='/wc2018_hourly_update_TEST.R'
-client = Client('https://connection.keboola.com', '2104-139107-4e38dd248cb1d9eb8cbb19855707efab534e05b4')
+
 today = time.strftime("%Y%m%d")
 now = time.strftime("%Y%m%d-%H%M%S")
 dayHour = time.strftime("%Y%m%d_%H")
