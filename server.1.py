@@ -218,7 +218,7 @@ def _init_api(scheduler, api_port=None, address=None, unix_socket=None):
     return [s.getsockname() for s in api_sockets]
 
 
-def run(api_port=PORT, address=None, unix_socket=None, scheduler=None):
+def run(api_port=8082, address=None, unix_socket=None, scheduler=None):
     """
     Runs one instance of the API server.
     """
