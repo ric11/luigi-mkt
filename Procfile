@@ -1,1 +1,1 @@
-web: python server.py
+web: luigid --port=$PORT --logdir=$HOME
