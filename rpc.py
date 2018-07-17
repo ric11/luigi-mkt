@@ -102,7 +102,8 @@ class RemoteScheduler(object):
     Scheduler proxy object. Talks to a RemoteSchedulerResponder.
     """
 
-    def __init__(self, url='http://localhost:8082/', connect_timeout=None):
+   # def __init__(self, url='http://localhost:8082/', connect_timeout=None):
+     def __init__(self, url='https://luigi-mkt.herokuapp.com', connect_timeout=None): # custom Ricard
         assert not url.startswith('http+unix://') or HAS_UNIX_SOCKET, (
             'You need to install requests-unixsocket for Unix socket support.'
         )
