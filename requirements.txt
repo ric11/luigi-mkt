@@ -1,2 +1,3 @@
 tornado<5,>=4.0
 luigi==2.5.0
+python-daemon<3.0
